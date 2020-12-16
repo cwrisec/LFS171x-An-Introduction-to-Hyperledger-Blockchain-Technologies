@@ -402,3 +402,43 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 - Initators : Fujitsu, The Linux Foundation, Sovrin Foundation, Intel, DFINITY, State Street, IBM, Sai Infratel, and Bitwise (2019)
 
 # Chapter 6. : The Promise of Business Blockchain Technologies
+
+  ## Finance's usage of DLT
+
+  - **transferring assets and recording trade agreements** (stock sales, bonds, options, and cash transactions)
+
+  Blockchain technologies are very good at **recording state transitions**
+
+  ## Legal industry's usage of DLT
+
+  -  record property rights and the transfer of those rights
+
+  ## Insurance industry's usage of DLT
+
+  - pooling funds from unaffiliated individuals
+
+## Health industry's usage of DLT
+
+- record and share data, such as patient health records, or pharmacy information.
+
+## Material and product supplychain's usage of DLT
+
+- improved resource, sourcing, and allocation.
+
+## DLT Advantages for businesses
+
+- Smart contracts eliminate the middleman and add accountability (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
+- Internet of Things (IoT)-based blockchain applications add a higher level of security,  and transparency (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution. 
+- Identity security is a key area where enterprise blockchain technologies can make a difference, bringing, for example, a much-needed reduction in identity fraud and theft claims, cutting the red tape of government and local administration bureaucracy, and more. Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.
+- Blockchain adds data transparency and automation to supply management and logistics, building trust and enabling leaner, more cost-effective processes.
+
+ it's now time to walk the talk! And the sky is the limit it seems!
+
+
+ ## Production usescases
+
+- **Supply Chain** - IBM Food Trust, powered by Hyperledger Fabric,
+- **Airline Industry**  - NIIT Technologies developed a new blockchain application, Chain-m, using Hyperledger Fabric.
+- **Enterprise Operations Management** - JD.com, the largest retailer in China, has developed its own enterprise blockchain platform aimed at streamlining numerous operational procedures, such as tracking and tracing the movement of goods, charity donations, authenticity certification, property assessment, transaction settlements, digital copyrights, etc.Hyperledger Fabric.
+- **Insurance Compliance Data** - The American Association of Insurance Services has developed openIDL (open Insurance Data Link), a system built on IBM Blockchain, thus powered by Hyperledger Fabric, which is designed to automate insurance regulatory reporting.
+- **Decentralized Identities and Trusted Credentials** - In an attempt to streamline their business-oriented services, the government of British Columbia started working on a project based on Hyperledger Indy. OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.
