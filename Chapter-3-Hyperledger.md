@@ -112,3 +112,38 @@ Features:
 Model:
 
 ![Ici](https://blockgeeks.com/wp-content/uploads/2017/05/Hyperledger-Blockchain-Elli-Androulaki-fabric-model.jpg)
+
+
+## 3.4 - Hyperledger Fabric
+
+What:
+
+    - High-performance, secure, permissioned blockchain network
+    - Features powerful container technology to host any mainstream language for smart contracts development
+    - Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.
+    - Sponsor & main maintainers: IBM, Digital Assets Holdings, Blockstream's libconsensus
+    - 2017
+    - Allow confidential transations through differents channels running within the network and division of labor that characterize the diffferents nodes within the network.
+
+
+Consensus:
+
+    -  Plug and play : Consensus
+    -  Plug and play : Memberships
+
+
+Usage: 
+
+    -  Modularity and versatility for a broad set of industry use cases.
+    -  Fabric offers a modular, scalable and secure platform that supports private transactions and confidential contracts.
+    -  Fabric helps members manage confidential obligations to each other without first passing it through a central authority.
+    -  Solutions developed with Fabric to be adapted for any industry,
+    -  
+Features:
+
+    - **plug-and-play components**, such as consensus, privacy, and membership services.
+    - Enable **Networks of Networks**
+
+Model:
+
+![Ici](https://blockgeeks.com/wp-content/uploads/2017/05/Hyperledger-Blockchain-Elli-Androulaki-fabric-model.jpg)
