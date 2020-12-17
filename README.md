@@ -447,7 +447,7 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 
 - improved resource, sourcing, and allocation.
 
-## DLT Advantages for businesses
+## 6.1 DLT Advantages for businesses
 
 - **Smart contracts eliminate the middleman and add accountability** (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
 - **Internet of Things (IoT)-based blockchain applications**:
@@ -466,7 +466,7 @@ Long term, Quilt can become a ledger interoperability solution that enables more
   - by building trust and enabling leaner, more cost-effective processes.
 
 
- ## Production usescases
+ ## 6.2  Production usescases
 
 - **Supply Chain** - IBM Food Trust, powered by Hyperledger Fabric,
 - **Airline Industry**  - NIIT Technologies developed a new blockchain application, Chain-m, using Hyperledger Fabric.
@@ -474,14 +474,16 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 - **Insurance Compliance Data** - The American Association of Insurance Services has developed openIDL (open Insurance Data Link), a system built on IBM Blockchain, thus powered by Hyperledger Fabric, which is designed to automate insurance regulatory reporting.
 - **Decentralized Identities and Trusted Credentials** - In an attempt to streamline their business-oriented services, the government of British Columbia started working on a project based on Hyperledger Indy. OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.
 
-## Supplychain Management
+## 6.3 Supplychain Management
 
-**Defintion** : The oversight of funds, raw materials, components, and finished products, as they move from suppliers, to manufacturers, to wholesalers, to retailers, to consumers, within one or several companies
+**Defintion** 
+The oversight of funds, raw materials, components, and finished products, as they move from suppliers, to manufacturers, to wholesalers, to retailers, to consumers, within one or several companies
 
 - Important part of enterprise resource planning (ERP)
 - Supplychain + Trade Finance
 
 **Why is blockchain useful in supplychain ?**
+- Blockchain data improves insight into products, as they move through their lifecycle
 - Audit trail
 - Eliminate the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain
 - Improves resource allocation.
@@ -506,7 +508,7 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 
 Other examples: Ibm Food with WallMart, CoffeeChain...
 
-## Property Rights
+## 6.4 Property Rights
 
 **Definition**:
 
@@ -545,4 +547,71 @@ Other examples: Ibm Food with WallMart, CoffeeChain...
 
 **Audience**: 
 
-Strong brand value in particular, Such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property
+Strong brand value in particular
+  - Such as the fashion industry and luxury good providers
+
+## 6.4 Provenance
+
+Link with : EU Tax & Customs, EU_IPO, OECD 
+
+**Definition**:
+- Provenance is a record of ownership used as a guide to authenticity or quality.
+
+**Why**:
+- data improves insight into products
+- OECD aims to improve tracability
+
+**Usecases for niches**
+
+Consumers who are willing to pay a premium to make sure that they are not funding operations that are not in line with their values
+
+- Authenticity check (should be linked with property rights) - Luxury
+- Fair trade and fair labor standards check
+- The use or not of harmful chemicals during product manufacturing
+- Counterfeit products
+
+## 6.5 Finances
+
+- Currently, bonds, invoice financing, letter of credit transactions, and interest rate swaps governed by an **ISDA master agreement** have all been recorded on blockchain 
+- With smart contract technology, a legal agreement can automatically execute clauses within it.
+
+**Pains**
+
+- Messaged based models
+- Slow reconciliation processes 
+- **Inefficiency of fragmented data stores**.
+- **Post trade cycles involve in the trade  a series of steps to verify the terms of the trade and to transfer the assets involved by the law to go through a third parties**.  Some trades are currently required by law to go through a separate central clearing organization
+
+**a complex process known as the post-trade cycle is initiated once parties "execute" a trade. The post-trade cycle involves a series of steps to verify the terms of a trade, and to transfer assets involved in the trade in order to effectuate and settle the trade. Some trades are currently required by law to go through a separate central clearing organization. This organization steps in as the counterparty to each trade, creating two distinct contracts for each trade. These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.**
+
+ 
+**Opportunities**
+
+- Shared data construct,
+- Driving down costs
+- Increasing efficiency 
+- Opening up entirely new business models
+
+## Trade process
+
+Although every trade has its own lifecycle, generally, the following steps will occur:
+
+- Parties execute a trade. Executing a trade occurs when parties agree on the details of a trade and are willing to enter into the deal.
+- One party will draft an inception document, capturing all the terms of the trade, and will send it to the other party to get the trade confirmed.
+- The recipient of the inception document will check the details of the trade and confirm the trade by signing and returning the document. Confirmation communication is done often by Fax, SWIFT, or Telex.
+- The trade is allocated. For flexibility of profit and loss booking, parties will often allocate the trade to various sub-entities within their organization.
+- Each trade will be stored by the party who was allocated the trade on an internal database. For ease of identification, the trade is assigned a unique Trade ID as a standard identifier.
+- Post-Trade Changes are sometimes made by the parties. This can occur when:
+  - The trade can be amended with consent of both parties
+  - One party may assign its position in the trade to a different party
+  - A partial termination of the trade may be triggered if a change in the notional of the trade that is not pre-fixed according to the agreement occurs
+  - Termination of the deal before maturity of the trade may occur, which may entail a termination fee.
+- Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
+- Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
+
+
+![Blockchain Financial Services](https://courses.edx.org/assets/courseware/v1/35b80d9faa29ce372e1ae13ecacca30f/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/Finance.jpg)
+
+The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT
+
+An asset ledger stores ownership and transactions. Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery. Querying information on the asset ledger may assist with price discovery. The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer. The changes in asset ownership or contract terms are securely recorded onto the asset ledger. The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.
