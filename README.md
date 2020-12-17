@@ -1,3 +1,23 @@
+# Chapter 1. See written notes in attached folder.
+# Chapter 2. See written notes in attached folder.
+
+## Benefits of blockchain 
+
+Blockchains are a new infrastructure for securely validating and automating transactions across complex networks, with the potential to dramatically reduce the backend costs of modern financial systems and expedite the delivery of e-government services. 
+
+They have four main benefits:
+
+- **Automation**: Blockchain-based smart contracts automate business logic across multiple parties, reducing settlement time and costs.
+- **Security**: Blockchains use advanced cryptography to guarantee tamper-proof data coordination and storage across large networks of counterparties.
+- **Reliability**: A blockchain’s decentralized architecture prevents single points of failure and ensures the network is highly available.
+- **Transparency**: A blockchain’s digital, immutable ledger provides auditability and accountability around business transactions and the origin of data.
+
+![Bridging the Governance Gap: Interoperability for blockchain and legacy systems](https://assets.weforum.org/editor/responsive_large_webp_IoDx8JwqCUWC5PsUh8CajPme9yQkXWq-y5zwE8_ICdw.webp)
+
+(WEF, Sergey Nazarov - 2020 - https://www.weforum.org/agenda/2020/12/the-missing-link-between-blockchain-and-existing-systems/)
+
+(77 DLT Uses cases - Chainlink - 2020 - https://blog.chain.link/44-ways-to-enhance-your-smart-contract-with-chainlink/ )
+
 # Chapter 3. Hyperledger: **Distributed Ledger Frameworks and Domain Specific Blockchains**
 
 ## 3.1 - Components of Hyperledger frameworks
@@ -427,12 +447,21 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 
 ## DLT Advantages for businesses
 
-- Smart contracts eliminate the middleman and add accountability (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
-- Internet of Things (IoT)-based blockchain applications add a higher level of security,  and transparency (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution. 
-- Identity security is a key area where enterprise blockchain technologies can make a difference, bringing, for example, a much-needed reduction in identity fraud and theft claims, cutting the red tape of government and local administration bureaucracy, and more. Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.
-- Blockchain adds data transparency and automation to supply management and logistics, building trust and enabling leaner, more cost-effective processes.
+- **Smart contracts eliminate the middleman and add accountability** (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
+- **Internet of Things (IoT)-based blockchain applications**:
+  -  add a higher level of security
+  -  add transparency 
+  (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution. 
+- **Identity security is a key area where enterprise blockchain technologies can make a difference**, bringing, for example
+    - a much-needed reduction in identity fraud and theft claims
+    - cutting the red tape of government and local administration bureaucracy
+    - and more.
+  
+  Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.
 
- it's now time to walk the talk! And the sky is the limit it seems!
+- **Blockchain adds data transparency and automation**
+  - supply management and logistics
+  - by building trust and enabling leaner, more cost-effective processes.
 
 
  ## Production usescases
@@ -442,3 +471,23 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 - **Enterprise Operations Management** - JD.com, the largest retailer in China, has developed its own enterprise blockchain platform aimed at streamlining numerous operational procedures, such as tracking and tracing the movement of goods, charity donations, authenticity certification, property assessment, transaction settlements, digital copyrights, etc.Hyperledger Fabric.
 - **Insurance Compliance Data** - The American Association of Insurance Services has developed openIDL (open Insurance Data Link), a system built on IBM Blockchain, thus powered by Hyperledger Fabric, which is designed to automate insurance regulatory reporting.
 - **Decentralized Identities and Trusted Credentials** - In an attempt to streamline their business-oriented services, the government of British Columbia started working on a project based on Hyperledger Indy. OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.
+
+## Supplychain Management
+
+**Defintion** : The oversight of funds, raw materials, components, and finished products, as they move from suppliers, to manufacturers, to wholesalers, to retailers, to consumers, within one or several companies
+
+- Important part of enterprise resource planning (ERP)
+
+**Why is blockchain useful in supplychain ?**
+-  Eliminate the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain
+
+**Challenges** :  
+- Stocking the right amount of inventory over time is also known as **supply demand synchronization** 
+- DLT can provide for **just-in-time lean manufacturing** and distribution
+- Overstocking inventory is costly
+- Inter companies settlements is difficult because no integration with the differents ERP systems - 
+- Data doesn't flow well through the handshakes or interface points between systems. 
+-  Transfert of ownership & Changes of status of products through their synchronization between parties
+-  **Visibility is limited at the hand-off points of funds, raw materials, components, or finished products and it's intented**
+
+  
