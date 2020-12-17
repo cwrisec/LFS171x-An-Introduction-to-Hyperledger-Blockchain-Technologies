@@ -1,5 +1,5 @@
-# Chapter 1. See written notes in attached folder.
-# Chapter 2. See written notes in attached folder.
+# Chapter 1. See written notes in sub-folder.
+# Chapter 2. See written notes in sub-folder.
 
 ## Benefits of blockchain 
 
@@ -103,6 +103,7 @@ Uses a RocksDB key-value database (high performance db) to persist chain data lo
 
 ### What:
 
+- Enterprisegrade, permissioned, open source, vendor neutral, modular, plug-and-play
 - Allow confidential transations through differents channels running within the network and division of labor that characterize the diffferents nodes within the network.
 - High-performance, secure, permissioned blockchain network
 - Features powerful container technology to host any mainstream language for smart contracts development
@@ -219,6 +220,7 @@ Uses a RocksDB key-value database (high performance db) to persist chain data lo
 ## 3.7 - Hyperledger SawTooth
 
 ### What:
+  - Focus on IoT implementations. 
 -   Permissionned and permissionless support
 -   EVM transaction family (seth)
 -   Uses single node type -> Simple deployment.  
@@ -477,10 +479,14 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 **Defintion** : The oversight of funds, raw materials, components, and finished products, as they move from suppliers, to manufacturers, to wholesalers, to retailers, to consumers, within one or several companies
 
 - Important part of enterprise resource planning (ERP)
+- Supplychain + Trade Finance
 
 **Why is blockchain useful in supplychain ?**
--  Eliminate the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain
-
+- Audit trail
+- Eliminate the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain
+- Improves resource allocation.
+- Although a record of the transaction is public and tied to the movement of physical items across the network, specifics such as the quantity of goods, or the identity of the parties transacting, can be done pseudo-anonymously in a blockchain. Such a granular view of movement through supply chains improves resource allocation.
+  
 **Challenges** :  
 - Stocking the right amount of inventory over time is also known as **supply demand synchronization** 
 - DLT can provide for **just-in-time lean manufacturing** and distribution
@@ -490,4 +496,53 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 -  Transfert of ownership & Changes of status of products through their synchronization between parties
 -  **Visibility is limited at the hand-off points of funds, raw materials, components, or finished products and it's intented**
 
-  
+**Idea developped : Integrate trade finance**
+-  WTO : "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016)
+- The trade finance industry can also leverage information visible in a supply chain blockchain. trade finance manages capital required for international trade.
+- An exporter needs to mitigate the risk of non-payment, while an importer wants to mitigate the supply risk. The function of trade finance is to act as a third party to remove the payment risk and the supply risk, whilst providing the exporter with accelerated receivables, and the importer with extended credit. Institutions that provide capital during these trades can leverage the information visible in a supply chain blockchain to better evaluate companies for lending.
+
+ 
+![Supply chain tuna](https://courses.edx.org/assets/courseware/v1/f8b777bb4b2add9a426b97b8f2556aad/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/Supply_Chain_of_Tuna.png)
+
+Other examples: Ibm Food with WallMart, CoffeeChain...
+
+## Property Rights
+
+**Definition**:
+
+-  Division of law whereby the rights and responsibilities associated with owning an asset are established
+- Rights : 
+  - use
+  - profit
+  - exclude others
+  - transfer for any assets (partly or completely)
+- Reponsabilities:
+  - Tax
+  - Maintenance and repair costs, 
+  - Payment for injuries caused by unsafe or defective conditions of the asset.
+
+**Link with NFT and tokenization.**
+**Intellectual property includes copyright, trademark, and patents alsoon chain**
+
+  ![Property rights on the blockchain - toknization of house](https://courses.edx.org/assets/courseware/v1/7606d1ed26d6415a1dda083274cffdb4/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/PROPERTY_RIGHTS.jpg)
+*Property Titles on a Blockchain via a Smart Contract*
+
+**Why DLT in IP?**:
+
+- minimize disputes around property rights
+- record ownership rights and responsibilities.
+- governments have put land registry records on blockchain
+- it can provide an immutable, secure, timestamped record for the creation of intellectual propert
+- A blockchain may record a hash of a document.
+  - As an example, photographers could place a hash of their unique digital photographs on the blockchain. 
+    - The hash of a digital photograph will be constant so long as the photograph file has not been altered
+    - Blockchain can control and track the distribution of the photograph
+    - Detect the introduction of counterfeit images
+    - Blockchain can be used to resolve disputes as to who first introduced the image
+    - -> By placing a hash of intellectual property documents on the blockchain, a party can publicly demonstrate data ownership, 
+    - -> Prove the existence of certain documents at a given moment in time, without revealing the actual data. 
+    - -> In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
+
+**Audience**: 
+
+Strong brand value in particular, Such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property
