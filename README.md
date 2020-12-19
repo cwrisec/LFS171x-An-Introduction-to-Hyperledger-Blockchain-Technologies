@@ -12,6 +12,15 @@ They have four main benefits:
 - **Reliability**: A blockchain’s decentralized architecture prevents single points of failure and ensures the network is highly available.
 - **Transparency**: A blockchain’s digital, immutable ledger provides auditability and accountability around business transactions and the origin of data.
 
+Advantages of adopting DLT / Blockchain for business:
+
+- Improved business efficiencies
+- Product/service differentiation
+- Increased profitability
+- Cost reductions
+- New business insights from incremental data, etc.
+
+
 ![Bridging the Governance Gap: Interoperability for blockchain and legacy systems](https://assets.weforum.org/editor/responsive_large_webp_IoDx8JwqCUWC5PsUh8CajPme9yQkXWq-y5zwE8_ICdw.webp)
 
 (WEF, Sergey Nazarov - 2020 - https://www.weforum.org/agenda/2020/12/the-missing-link-between-blockchain-and-existing-systems/)
@@ -592,7 +601,7 @@ Consumers who are willing to pay a premium to make sure that they are not fundin
 - Increasing efficiency 
 - Opening up entirely new business models
 
-## Trade process
+## 6.6 Trade process
 
 Although every trade has its own lifecycle, generally, the following steps will occur:
 
@@ -609,9 +618,114 @@ Although every trade has its own lifecycle, generally, the following steps will 
 - Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
 - Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
 
+## Example of a Financial Trade Process
 
 ![Blockchain Financial Services](https://courses.edx.org/assets/courseware/v1/35b80d9faa29ce372e1ae13ecacca30f/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/Finance.jpg)
 
 The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT
 
-An asset ledger stores ownership and transactions. Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery. Querying information on the asset ledger may assist with price discovery. The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer. The changes in asset ownership or contract terms are securely recorded onto the asset ledger. The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.
+- An asset ledger stores ownership and transactions.
+- Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. 
+- Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery.
+- Querying information on the asset ledger may assist with price discovery.
+- The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. 
+  - If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer.
+- The changes in asset ownership or contract terms are securely recorded onto the asset ledger. 
+- The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.
+
+**Control funds on the blockchain**
+
+Disadvantages:
+
+- If funds aren’t under the control of the smart contract, then there is no way a payment can be guaranteed
+- if funds are controlled by the parties’ smart contract agreement, then those payments can indeed be guaranteed at the close of the trade
+
+Advantages
+
+- Conducting post-trade settlement in an automated way through smart contracts promises to introduce efficiencies, and reduce friction associated with trades.
+
+Barriers to entry (solved):
+
+- Data Privacy (partially solved with ZKP and DECO)
+- TEE : Some regulations in the finance industry will not allow you to share information, or store it on a shared medium, even if it is encrypted. In addition, regulations covering securities professionals specify how ownership of certain assets must be recorded and properly transferred
+
+## 6.7 Healtcare
+
+DigitalID
+
+**Why Healtcare?**
+
+- By streamlining these multi-party processes
+-  Insurance benefits investigation eligibility checks are performed
+-  protect data from cybercrime
+-  online identity management,
+-  medical history
+-  
+**Benefits:**
+
+- reduce the time and expense of collecting and verifying multiple pieces
+
+![](https://courses.edx.org/assets/courseware/v1/8c6873e099cbc51e795daa4a3917e9da/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/The_BlockRx_Pharma_Ecosystem.png)
+
+## 6.8 Education
+
+**Benefits:**
+
+- Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process.
+- Verifying e-portfolios of digital badges 
+- Securing and sharing student records
+- Identity management
+- Sharing security data (from security cameras and sensors, for example) across device networks
+- Creating learning marketplaces
+- Records management
+- Increasing accountability and transparency for charitable school donations
+- Streamlining the public assistance system for families and students.
+
+
+**More blockchain education use cases:** : https://www.forbes.com/sites/tomvanderark/2018/08/20/26-ways-blockchain-will-transform-ok-may-improve-education/#6b6198ac4ac9
+
+## 6.8 Smart Energy Management
+
+## 6.9 Dubai
+
+- The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.
+- The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.
+The UAEPASS is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.
+- The DubaiNow mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.
+- Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. “Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”
+
+## 6.10 Best Practices
+
+**Security for the long term**
+- While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today. 
+
+*To avoid the potential security disruptions of tomorrow, a critical best practice is that users should never put personally identifiable information, or PII, on their blockchains.*
+
+**File storage on the blockchain**
+- Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. *To avoid added storage costs, it is recommended that other storage and replication methods to be used* - this includes cloud networks like AWS S3, GCP Filestore, etc. This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data.
+
+**Permissioned blockchain for private data**
+- On public blockchains, anybody has access to the information stored on the network: they can add transactions and read the data that is in it. When it comes to permissioned blockchains, data can be stored, accessed and used only between partners that have access to it. *Permissioned blockchains, such as the Hyperledger technologies, are a great solution for businesses, as they want their data to remain private.*
+
+**Blockchain governance structure**
+- Most blockchain-related challenges are related to the governance model that is chosen. *To keep things straightforward, you should define the governance structure upfront very early in the process*, even before diving into blockchain: decide how new users/organizations are added to a blockchain network, how to determine if a user/organization should be removed from the blockchain network, include a mechanism that deals with and removes bad actors previously allowed in the network, etc. Keep in mind that things change over time, and as such, the governance procedures may change as well.
+
+**Performance and scalability requirements**
+- *Blockchain architects must have a clear understanding of the requirements for their specific use cases, and they must ensure that their blockchains meet those requirements*. Based on these requirements, decisions must be made early on with each deployment and use case in regards to what technologies to use. 
+  
+**Goals of blockchain business cases**
+- Not every project or solution is successful, unless it is carefully planned, designed and implemented. *A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.*
+
+## 6.11 When to use or not blockchain technologies
+
+1) Start with the business need
+   1) What are you doing in this entreprise?
+   2) What are you doing with your business, suppliers, customers, competitors
+   3) What are the business processes? provenance tracking problems? registry issues (CINS)? 
+   4) Where is there a SC or  a decentralized ledger opportunity?
+
+**One way to way to explore that is through industry consortiums where they discuss technical standards, common business processes, poc**
+
+It's important to think about an **industry wide approach.**, once you have it think about the **characteristics of that need** (tps?, #nodes?, geo? which devs to onboard?)
+
+
