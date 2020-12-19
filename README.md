@@ -5,14 +5,14 @@
 
 Blockchains are a new infrastructure for securely validating and automating transactions across complex networks, with the potential to dramatically reduce the backend costs of modern financial systems and expedite the delivery of e-government services. 
 
-They have four main benefits:
+**Blockchain / DLT have four IT main benefits:**
 
 - **Automation**: Blockchain-based smart contracts automate business logic across multiple parties, reducing settlement time and costs.
 - **Security**: Blockchains use advanced cryptography to guarantee tamper-proof data coordination and storage across large networks of counterparties.
 - **Reliability**: A blockchain’s decentralized architecture prevents single points of failure and ensures the network is highly available.
 - **Transparency**: A blockchain’s digital, immutable ledger provides auditability and accountability around business transactions and the origin of data.
 
-Advantages of adopting DLT / Blockchain for business:
+**Advantages of adopting DLT / Blockchain for business:**
 
 - Improved business efficiencies
 - Product/service differentiation
@@ -20,7 +20,27 @@ Advantages of adopting DLT / Blockchain for business:
 - Cost reductions
 - New business insights from incremental data, etc.
 
+**Conditions to have for great blockchain**
 
+- There is a need for a shared common database
+- The parties involved with the process have conflicting incentives, or do not have trust among participants
+- There are multiple parties involved or writers to a database
+- There are currently trusted third parties involved in the process that facilitate interactions between multiple parties who must trust the third party. This could include escrow services, data feed providers, licensing authorities, or a notary public
+- Cryptography is currently being used or should be used. Cryptography facilitates data confidentiality, data integrity, authentication, and non-repudiation
+- Data for a business process is being entered into many different databases along the lifecycle of the process. It is important that this data is consistent across all entities, and/or digitization of such a process is desired
+- There are uniform rules governing participants in the system
+- Decision making of the parties is transparent, rather than confidential
+- There is a need for an objective, immutable history or log of facts for parties’ reference
+- Transaction frequency does not exceed 10,000 transactions per second.
+
+**COnditions for NO GO for blockchain projects**
+
+- The process involves confidential data
+- The process stores a lot of static data, or the data is quite large
+- Rules of transactions change frequently (Blockchain is deterministic)
+- The use of external services to gather/store data.
+
+![Blockchain Decision Path](https://courses.edx.org/assets/courseware/v1/66ec31bc544413fd8d830ba39d355e4f/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/Blockchain_Decision_Flowchart.png)
 ![Bridging the Governance Gap: Interoperability for blockchain and legacy systems](https://assets.weforum.org/editor/responsive_large_webp_IoDx8JwqCUWC5PsUh8CajPme9yQkXWq-y5zwE8_ICdw.webp)
 
 (WEF, Sergey Nazarov - 2020 - https://www.weforum.org/agenda/2020/12/the-missing-link-between-blockchain-and-existing-systems/)
@@ -723,9 +743,12 @@ The UAEPASS is the national digital identity platform, giving UAE citizens, resi
    2) What are you doing with your business, suppliers, customers, competitors
    3) What are the business processes? provenance tracking problems? registry issues (CINS)? 
    4) Where is there a SC or  a decentralized ledger opportunity?
+2) Define requirements
+   1) #participants ?, tps?, #nodes?, geo? which devs to onboard? What are the rules, risks, and responsibilities of each party?
 
 **One way to way to explore that is through industry consortiums where they discuss technical standards, common business processes, poc**
 
-It's important to think about an **industry wide approach.**, once you have it think about the **characteristics of that need** (tps?, #nodes?, geo? which devs to onboard?)
+It's important to think about an **industry wide approach.**, once you have it think about the **characteristics of that need**
 
+Requirements 
 
