@@ -1,3 +1,5 @@
+https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2020/course/
+
 # Chapter 1. See written notes in sub-folder.
 # Chapter 2. See written notes in sub-folder.
 
@@ -687,7 +689,7 @@ DigitalID
 
 ![](https://courses.edx.org/assets/courseware/v1/8c6873e099cbc51e795daa4a3917e9da/asset-v1:LinuxFoundationX+LFS171x+3T2020+type@asset+block/The_BlockRx_Pharma_Ecosystem.png)
 
-## 6.8 Education
+## 6.8 gi
 
 **Benefits:**
 
